@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(190, 56, 56);
+    color: whitesmoke
+}
+
+.main-heading  {
+    padding: 15px 25px;
+    border-bottom: 2px solid #222;
+    font-family: "farhan";
+}
+h2 {
+    font-family: "farhan";
+}
+.para {
+    padding-left: 50px;
+    font-family: "aziz";
+    font-size: 30px;
+}
+@font-face {
+    font-family: "farhan";
+    src: url(/Lemon-Regular.ttf);
+}
+@font-face {
+    font-family: "aziz";
+    src: url(/Caveat-VariableFont_wght.ttf);
+}
+ul {
+    font-family: "aziz";
+    font-size: 25px;
+}
+h2{
+    padding-left: 40px;
+    border-bottom: 2px solid #222;
+}
+ol h3 {
+    font-family: "farhan";
+    border-bottom: 2px solid #222;
+}
