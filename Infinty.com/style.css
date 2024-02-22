@@ -1,0 +1,136 @@
+.container {
+    background-color: white;
+    width: 80vw;
+    height: 78vh;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border: 1px ;
+    flex-wrap: wrap;
+
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+.form h3 {
+    margin: -12px;
+    color: rgb(110, 110, 110);
+}
+.form h1{
+    color: red;
+    margin-bottom: -2px;
+}
+p{
+    font-size: 13px;
+    color: rgb(110, 110, 110);
+}
+#user {
+    padding: 10px;
+    width: 20vw;
+    margin: 10px;
+    border-radius: 100px;
+    border-color: 1px solid rgb(110, 110, 110);
+    text-align: center;
+}
+#btn {
+    padding: 10px;
+    width: 22vw;
+    margin: 10px;
+    border-radius: 100px;
+    background-color: red;
+    color: white;
+    border-color: 1px solid rgb(110, 110, 110);
+
+    text-align: center;
+    cursor: pointer;
+}
+#btn:hover {
+    color: black;
+    background-color: #fff;
+    border-color: 1px solid rgb(110, 110, 110);
+}
+span {
+    color: red;
+    font-weight: 500;
+   
+} 
+a {
+    text-decoration: none;
+}
+.icons {
+    width: 100px;
+    height: 30px;
+    margin-bottom: -20px;
+}
+.backg {
+    background-color: rgb(255, 0, 0);
+    width: 43vw;
+    background-attachment: fixed;
+    height: 78vh;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.backg img {
+    width: 40vw;
+    height: 80vh;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0.18;
+}
+.top-right {
+    position: absolute;
+    top: 45%;
+    left: 69%;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    transform: translate(-50%, -50%);
+  }
+  .top-right h1 {
+    letter-spacing: 3px;
+  }
+  .top-right p {
+    color: rgb(177, 174, 174);
+  }
+.backg::after  {
+    position: absolute;
+    top: 280px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    right: 31%;
+    transform: translateX(50%);
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: 4px;
+  }
+
+  /* media query  */
+  @media only screen and (min-width: 600px) {
+    .container {
+        width: 80%;
+        height: 80%;        
+    }
+    .form {
+        width: 50%;
+        height: 75%;
+    }
+    .backg {
+        width: 51%;
+        height: 75%;
+        align-items: center;
+    }
+    
+  }
